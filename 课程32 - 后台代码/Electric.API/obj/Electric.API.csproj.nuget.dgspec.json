@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.API\\Electric.API.csproj": {}
+    "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.API\\Electric.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.API\\Electric.API.csproj": {
+    "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.API\\Electric.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.API\\Electric.API.csproj",
+        "projectUniqueName": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.API\\Electric.API.csproj",
         "projectName": "Electric.API",
-        "projectPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.API\\Electric.API.csproj",
+        "projectPath": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.API\\Electric.API.csproj",
         "packagesPath": "C:\\Users\\27955\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.API\\obj\\",
+        "outputPath": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\27955\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj": {
-                "projectPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj"
+              "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj": {
+                "projectPath": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj"
               },
-              "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Repository\\Electric.Repository.csproj": {
-                "projectPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Repository\\Electric.Repository.csproj"
+              "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Repository\\Electric.Repository.csproj": {
+                "projectPath": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Repository\\Electric.Repository.csproj"
               },
-              "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Service\\Electric.Service.csproj": {
-                "projectPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Service\\Electric.Service.csproj"
+              "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Service\\Electric.Service.csproj": {
+                "projectPath": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Service\\Electric.Service.csproj"
               }
             }
           }
@@ -49,28 +49,83 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[7.0.6, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.EntityFrameworkCore\\Electric.EntityFrameworkCore.csproj": {
+    "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.EntityFrameworkCore\\Electric.EntityFrameworkCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.EntityFrameworkCore\\Electric.EntityFrameworkCore.csproj",
+        "projectUniqueName": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.EntityFrameworkCore\\Electric.EntityFrameworkCore.csproj",
         "projectName": "Electric.EntityFrameworkCore",
-        "projectPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.EntityFrameworkCore\\Electric.EntityFrameworkCore.csproj",
+        "projectPath": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.EntityFrameworkCore\\Electric.EntityFrameworkCore.csproj",
         "packagesPath": "C:\\Users\\27955\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.EntityFrameworkCore\\obj\\",
+        "outputPath": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.EntityFrameworkCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\27955\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -87,8 +142,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj": {
-                "projectPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj"
+              "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj": {
+                "projectPath": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj"
               }
             }
           }
@@ -102,28 +157,40 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj": {
+    "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj",
         "projectName": "Electric.Entity",
-        "projectPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj",
+        "projectPath": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj",
         "packagesPath": "C:\\Users\\27955\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Entity\\obj\\",
+        "outputPath": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\27955\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -151,28 +218,48 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Repository\\Electric.Repository.csproj": {
+    "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Repository\\Electric.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Repository\\Electric.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Repository\\Electric.Repository.csproj",
         "projectName": "Electric.Repository",
-        "projectPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Repository\\Electric.Repository.csproj",
+        "projectPath": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Repository\\Electric.Repository.csproj",
         "packagesPath": "C:\\Users\\27955\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Repository\\obj\\",
+        "outputPath": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\27955\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -189,8 +276,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.EntityFrameworkCore\\Electric.EntityFrameworkCore.csproj": {
-                "projectPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.EntityFrameworkCore\\Electric.EntityFrameworkCore.csproj"
+              "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.EntityFrameworkCore\\Electric.EntityFrameworkCore.csproj": {
+                "projectPath": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.EntityFrameworkCore\\Electric.EntityFrameworkCore.csproj"
               }
             }
           }
@@ -210,22 +297,28 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Service\\Electric.Service.csproj": {
+    "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Service\\Electric.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Service\\Electric.Service.csproj",
+        "projectUniqueName": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Service\\Electric.Service.csproj",
         "projectName": "Electric.Service",
-        "projectPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Service\\Electric.Service.csproj",
+        "projectPath": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Service\\Electric.Service.csproj",
         "packagesPath": "C:\\Users\\27955\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Service\\obj\\",
+        "outputPath": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\27955\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -242,11 +335,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj": {
-                "projectPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj"
+              "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj": {
+                "projectPath": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj"
               },
-              "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Repository\\Electric.Repository.csproj": {
-                "projectPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Repository\\Electric.Repository.csproj"
+              "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Repository\\Electric.Repository.csproj": {
+                "projectPath": "C:\\Users\\27955\\Desktop\\tourist_tracing\\课程32 - 后台代码\\Electric.Repository\\Electric.Repository.csproj"
               }
             }
           }
@@ -266,11 +359,17 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
