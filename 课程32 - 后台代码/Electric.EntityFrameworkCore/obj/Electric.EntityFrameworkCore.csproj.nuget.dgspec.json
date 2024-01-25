@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.EntityFrameworkCore\\Electric.EntityFrameworkCore.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.EntityFrameworkCore\\Electric.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.EntityFrameworkCore\\Electric.EntityFrameworkCore.csproj",
+        "projectName": "Electric.EntityFrameworkCore",
+        "projectPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.EntityFrameworkCore\\Electric.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\27955\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\27955\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj": {
+                "projectPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj",
+        "projectName": "Electric.Entity",
+        "projectPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Entity\\Electric.Entity.csproj",
+        "packagesPath": "C:\\Users\\27955\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\27955\\Documents\\WeChat Files\\wxid_avhofvtx3dp322\\FileStorage\\File\\2024-01\\课程32 - 后台代码\\Electric.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\27955\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
